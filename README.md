@@ -35,7 +35,7 @@
 <summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/AutoAniZone/Itachi">
+<a href="https://heroku.com/deploy?template=https://github.com/animelegendpro/Itachi-Renamer-bot">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
