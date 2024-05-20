@@ -15,7 +15,7 @@ async def start(client, message):
         InlineKeyboardButton('Sᴜᴩᴩᴏʀᴛ', url='https://t.me/+FGM0HOnjDC45ZDk1')],
         [InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
         InlineKeyboardButton('Hᴇʟᴘ', callback_data='help')],
-        [InlineKeyboardButton("🍁 ᴍᴀsᴛᴇʀ 🍁", url='https://t.me/Devil_Eyes_ZX')]
+        [InlineKeyboardButton("🍁 ᴍᴀsᴛᴇʀ 🍁", url='https://t.me/Devil_Eyes_ZBot')]
     ])
     if Config.START_PIC:
         await message.reply_photo(Config.START_PIC, caption=Txt.START_TXT.format(user.mention), reply_markup=button)       
@@ -35,7 +35,7 @@ async def cb_handler(client, query: CallbackQuery):
                 InlineKeyboardButton('Sᴜᴩᴩᴏʀᴛ', url='https://t.me/+FGM0HOnjDC45ZDk1')],
                 [InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
                 InlineKeyboardButton('Hᴇʟᴘ', callback_data='help')],
-                [InlineKeyboardButton("🍁 ᴍᴀsᴛᴇʀ 🍁", url='https://t.me/Devil_Eyes_ZX')]
+                [InlineKeyboardButton("🍁 ᴍᴀsᴛᴇʀ 🍁", url='https://t.me/Devil_Eyes_ZBot')]
             ])
         )
     elif data == "help":
@@ -54,8 +54,8 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton("๏ ᴍᴏʀᴇ ʙᴏᴛs", url="https://t.me/ZPro_Bots")],
-                [InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
-                InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")]
+                [InlineKeyboardButton("✘ Cʟᴏꜱᴇ", callback_data = "close"),
+                InlineKeyboardButton("《 Bᴀᴄᴋ", callback_data = "start")]
             ])            
         )
     elif data == "close":
